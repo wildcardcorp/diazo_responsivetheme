@@ -8,6 +8,7 @@
 
 /*  *  1625px and above huge screens * */
 @media screen and (min-width : 1625px)  {
+
     body { width: 100%;}
     
     /* for readability making the width of the site only got to 100em */ 
@@ -22,6 +23,7 @@
 
 /*  *  800px and below * */
 @media screen and (max-width : 800px) {
+
     div#portal-searchbox {
         margin-right: 10% !important;
     }
@@ -207,7 +209,7 @@
         font: 1em!important;
     } 
     #visual-portal-wrapper {
- 		width: 100% !important;
+     	width: 100% !important;
  		margin: 0 !important;
  	}
     #portal-columns {

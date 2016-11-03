@@ -13,8 +13,8 @@ function below_610(){
       // on load add the li if less than 610 px wide and the nav-menu class
       if(window.location.hash != '#portal-globalnav') {
         if ($(window).width() < 610) {
-            var showNavigationLabel = _('Show Navigation');
-            var hideNavigationLabel = _('Hide Navigation');
+            var showNavigationLabel = _('Show Menu');
+            var hideNavigationLabel = _('Hide Menu');
 
             // always show right Navigation label for button, even in rare situations:
             // e.g. expand the mobile menu, enlarge the browser so the mobile menu disappears,
@@ -50,8 +50,6 @@ function below_610(){
 }
 
 $(document).ready(function() {
-    // we need to get to the javascript variables that are created by pyton so we can't use the html file since it puts in the ++theme++ stuff
-    $("head").append('<script type="text/javascript" src="./portal_javascripts/Sunburst%20Theme/plone_javascript_variables.js"></script>');
     // i18n
     jarn.i18n.loadCatalog('plonetheme.diazo_responsivetheme');
     _ = jarn.i18n.MessageFactory('plonetheme.diazo_responsivetheme');

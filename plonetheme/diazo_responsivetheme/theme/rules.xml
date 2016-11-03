@@ -1,12 +1,17 @@
 <rules
     xmlns="http://namespaces.plone.org/diazo"
-    xmlns:css="http://namespaces.plone.org/diazo/css">
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <theme href="index.html" css:if-content="#visual-portal-wrapper" />
     <copy attributes="lang" css:theme="html" css:content="html" />
     
+    <after css:theme-children="html head" css:content="html head meta" />
     <replace css:theme="html head title" css:content="html head title" />
-    <replace css:theme="html head base" css:content="html head base" />
+    <before css:theme-children="html head" css:content="html head base" />
+    <before css:theme-children="html head" css:content="html head script" />
 
     <replace css:content="#portal-colophon" css:theme="#portal-colophon" /> 
     <replace css:content="#portal-column-content" css:theme="#portal-column-content" /> 
