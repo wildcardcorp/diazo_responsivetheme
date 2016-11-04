@@ -5,14 +5,15 @@ Dependencies: jQuery
 Changes made by Rob Porter - WebLion
 Last Updated: April 2012
 
-Changes made by Jochen Dekeyser 
+Changes made by Jochen Dekeyser
 Last Updated: August 6, 2013
 */
 
-function below_610(){
-      // on load add the li if less than 610 px wide and the nav-menu class
+function below_800(){
+      // on load add the li if less than 800 px wide and the nav-menu class
       if(window.location.hash != '#portal-globalnav') {
-        if ($(window).width() < 610) {
+        // 1105 for 6+
+        if ($(window).width() < 800) {
             var showNavigationLabel = _('Show Menu');
             var hideNavigationLabel = _('Hide Menu');
 
@@ -56,18 +57,18 @@ $(document).ready(function() {
     // add a div around globalnav
     $('ul#portal-globalnav').wrap('<div class="nav-primary" />');
     if ( $(".navigation-button").length == 0 ) {
-        below_610();
+        below_800();
     }
     $(window).resize(function() {
-        // if window is smaller than 610px put in the extra li
-        if ($(window).width() <= 610) {
+        // if window is smaller than 800px put in the extra li
+        if ($(window).width() <= 800) {
              // check to see if we have this particular li.. if not add it
              if ( $(".navigation-button").length == 0 ) {
-               below_610();
+               below_800();
              }
          }
         // if window is bigger take away li
-        if ($(window).width() > 610) {
+        if ($(window).width() > 800) {
              // check and see if .navigation-button is there.. if so remove it
              if ( $(".navigation-button").length > 0 ) {
                  $('#portal-top').removeClass('nav-menu');
@@ -76,8 +77,6 @@ $(document).ready(function() {
              }
         }
     });
-   
+
 
 });
-
-

@@ -10,8 +10,8 @@
 @media screen and (min-width : 1625px)  {
 
     body { width: 100%;}
-    
-    /* for readability making the width of the site only got to 100em */ 
+
+    /* for readability making the width of the site only got to 100em */
     #visual-portal-wrapper {
         width: 100em !important;
         margin: 0px auto !important;
@@ -30,7 +30,7 @@
 }
 
 /*  * 600px and below-common things for 480px, 600px, and below .. IE 9 ignored this if it had 'only screen' in the query * */
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 668px) {
     /* reset the min width to be 320px */
     body { min-width: 320px !important;}
     #visual-portal-wrapper { width: 100% !important;}
@@ -44,18 +44,18 @@
        display: inline-block;
        clear: both;
        margin: 0px;}
-       
-   #portal-logo img { 
-       max-width: 300% !important; 
+
+   #portal-logo img {
+       max-width: 300% !important;
        height: auto;
        margin: 10px;
        }
-       
+
     /* make width 100% instead of the stock 97.75% */
     div.width-full {
         width: 100% !important;
         }
-        
+
     /* start position-0 at absolute left */
     div.position-0 {
         margin-left: -100%;
@@ -67,28 +67,28 @@
         -webkit-box-shadow: none;
         box-shadow: none;
         }
-        
-    /* move columns to below main content */    
+
+    /* move columns to below main content */
     #portal-column-two, #portal-column-one {
         clear: both;
         margin-left: -99% !important;
         width: 100% !important;
         margin:1em 0px;
         width: 95% !important;
-        } 
-        
+        }
+
     /* spread out the content */
     div#portal-column-content {
         width: 94%;
         margin-left: -99%;
         }
-        
+
     dl#portal-personaltools {
         margin-right: 34px;
         float: right;
         }
-       
-    /* move search box to the center and expand its width */   
+
+    /* move search box to the center and expand its width */
     #portal-searchbox {
         margin: 6px 17% 15px 17% !important;
         width: 60%;
@@ -96,12 +96,12 @@
         clear: both !important;
         float: left !important;
         }
-    
+
     #searchGadget {
         width: 81%;
         }
     .searchform #searchString { width: 211px; }
-    
+
     #portal-personaltools {
        font-size: 70%;
        }
@@ -110,20 +110,20 @@
   #portal-globalnav {
         margin-left: 0px !important;
         }
-                
+
     ul#portal-globalnav {
         padding: 0px;
         background-color: white !important;
         background: white !important;
         width: 100% !important;
         }
-        
-    ul#portal-globalnav:before { 
+
+    ul#portal-globalnav:before {
         display: block;
         margin-top: 20px;
-        font-size: 2em; 
+        font-size: 2em;
         }
-         
+
     #portal-globalnav {
         height: auto;
         clear: both;
@@ -131,7 +131,7 @@
         margin: 7px auto;
         width: 100% !important;
         }
-        
+
     #portal-globalnav li {
         display: list-item !important;
         margin-top: 5px;
@@ -146,7 +146,7 @@
        padding: 0.5em 1em 2em;
        background-color: #E3E3E3;
        }
-       
+
    #portal-globalnav li a {
         padding: 13px 13px 13px 20px;
         display: block !important;
@@ -154,46 +154,46 @@
         }
 
 
-/* luke w says breadcrumbs are not found in mobile designs */    
+/* luke w says breadcrumbs are not found in mobile designs */
     #portal-breadcrumbs {
-        display: none; 
+        display: none;
         }
-        
+
  /* make the content font-size bigger */
    #content {
        font-size: 0.9em;
        padding: 1em;
-       } 
+       }
    /*#content-core { width: 98%;}*/
    #content h1 { font-size: 1.4em;}
    #content h2 { font-size: 1.2em;}
    div#footer {
        width: 99%;
-       }   
+       }
     .LSBox input.searchButton {
         font-size: 2em;
     }
-    
+
     #searchGadget {
         font-size: 2em;
         padding-left: 10px;
     }
-    
+
     input.searchPage {
         font-size: 1em !important;
         }
 
-    
+
     #LSResult {
         position: relative;
         right: inherit;
         float: left;
         margin: 0;
     }
-    
+
     div#portal-columns { width: 99%; }
     #visual-portal-wrapper { width: 99% !important; }
- 
+
 } /*  * END 600px and below  * */
 
 
@@ -207,7 +207,7 @@
 @media screen and (orientation:landscape) and (max-device-width: 1024px) {
     body {
         font: 1em!important;
-    } 
+    }
     #visual-portal-wrapper {
      	width: 100% !important;
  		margin: 0 !important;
@@ -229,7 +229,7 @@
        font-size: 1.7em;
        }
     #portal-logo a#logo-site { padding-top: 2%;}
-    
+
 } /*  * END Pad in landscape mode * */
 
 
@@ -242,7 +242,7 @@
 
      #portal-logo {
         display: inline-block;
-        } 
+        }
 
      div#logo {
         position: absolute;
@@ -255,23 +255,23 @@
        margin: 0;
        display: inline-block;
        width: 80% !important;
-       }     
-   #portal-logo img { max-width: 300% !important; height: auto;}  
-    
+       }
+   #portal-logo img { max-width: 300% !important; height: auto;}
+
    #portal-globalnav { margin-left: 0px !important; }
-                
+
    ul#portal-globalnav {
         padding: 0px;
         background-color: transparent;
         width: 100% !important;
         }
-        
-     ul#portal-globalnav:before { 
+
+     ul#portal-globalnav:before {
         display: block;
         margin-top: 20px;
-        font-size: 2em; 
+        font-size: 2em;
         }
-        
+
     #portal-globalnav {
         height: auto;
         clear: both;
@@ -279,9 +279,9 @@
         margin: 7px auto;
         width: 100% !important;
         }
-        
+
    #portal-globalnav li {
-        display: inline-block !important; 
+        display: inline-block !important;
         margin-top: 4px;
         border-top: 1px solid #E7E7E7;
         border-bottom: 1px solid #E7E7E7;
@@ -289,18 +289,18 @@
         width: 100%;
         }
 
-        
+
     #portal-globalnav li a {
         padding: 13px 13px 13px 20px;
         display: block !important;
         }
-    
+
     .field input[type="text"][size] {
         width: 10em;
-        } 
- 
-    div#content-core form#searchform.searchPage fieldset#search-field { 
-        width: 100% !important; 
+        }
+
+    div#content-core form#searchform.searchPage fieldset#search-field {
+        width: 100% !important;
         padding: 0px;
         }
     fieldset#search-field input.searchPage:first-child {
@@ -312,7 +312,3 @@
         font-size: 0.05em;
     }
 } /*  * END iPhone * */
-
-
-
-

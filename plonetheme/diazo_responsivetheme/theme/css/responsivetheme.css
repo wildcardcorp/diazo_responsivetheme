@@ -6,7 +6,7 @@ img, object, video {
     width: auto !important; /* fix some of the icons  from the img, object, video auto scaling*/
     }
 
-#portal-globalnav { 
+#portal-globalnav {
     clear: both;
     }
 
@@ -17,18 +17,17 @@ div#footer, #portal-colophon {
 
 
 
-  #logo  { 
+  #logo  {
        margin-left: -95%;
     }
 
-button.navigation-button { 
-    width: 98%; 
-    margin:0px 1%; 
-    height: 2.4em; 
-    font-size: 1.3em; 
+button.navigation-button {
+    width: 98%;
+    margin:0px 1%;
+    height: 2.4em;
+    font-size: 1.3em;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     border:1px solid #999999;
     }
-    

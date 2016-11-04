@@ -20,9 +20,12 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/mediaqueries.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/responsivetheme.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/rwd-nav.css" />
-    
+
     <script type="text/javascript" src="js/plone-rwd-nav.js"></script>
-    
+    <script type="text/javascript" src="js/viewportchange.js"></script>
+    <script type="text/javascript" src="js/ios-orientationchange-fix.js"></script>
+    <script type="text/javascript" src="js/add_responsive_class_names.js"></script>
+
     <title>Welcome to Plone &mdash; Site</title>
     <!-- FIXME, suggestions?
     <link rel="author" href="/author/admin" title="Author information" />
@@ -35,7 +38,7 @@
     <link rel="alternate" href="/atom.xml" title="Site - Atom" type="application/rss+xml" />
     <link rel="search" href="/@@search" title="Search this site" />
     -->
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Plone - http://plone.org" />
 </head>
 <body class="template-document_view portaltype-document site-Plone section-front-page icons-on userrole-manager userrole-authenticated userrole-owner" dir="ltr">
@@ -48,16 +51,16 @@
                         <a accesskey="6" href="#portal-globalnav">Skip to navigation</a>
                     </p>
                     <div id="portal-personaltools-wrapper"></div>
-                    <a id="portal-logo"></a> 
+                    <a id="portal-logo"></a>
                     <div id="portal-searchbox"></div>
-                    
+
                     <p class="hiddenStructure">Navigation</p>
                     <ul id="portal-globalnav"></ul>
                 </div>
             </div>
         </div>
         <div id="portal-columns" class="row">
-            
+
             <div id="portal-column-content" class="cell width-full position-0"></div>
             <div id="portal-column-one"></div>
             <div id="portal-column-two"></div>

@@ -1,7 +1,6 @@
 /* Navigation
 ------------------------------ */
 
-
 .nav-primary .navigation-pulldown {
    font-weight: bold;
 }
@@ -24,18 +23,18 @@
    right: 0.3em;
    display: block;
    width: 4em;
-   height: 4.5em; 
+   height: 4.5em;
    cursor: pointer;
 }
 
 .nav-menu .nav-primary li {
    clear: left;
    display: none !important;
-}    
+}
 .nav-menu .nav-primary.expanded li,
 .nav-menu .nav-primary li.navigation-pulldown {
    display: list-item;
-} 
+}
 .nav-menu .nav-primary li.navigation-pulldown {
    border-bottom-width: 0;
 }
@@ -44,8 +43,8 @@
 }
 
 button.navigation-button {
-    width: 98%; 
-    font-size: 1.5em; 
+    width: 98%;
+    font-size: 1.5em;
     border: 1px solid #062946;
     background-color: #2586D9;
     color: #FFFFFF;
@@ -66,10 +65,10 @@ div.expanded button.navigation-button {
     -moz-border-bottom-left-radius: 0px;
     -moz-border-bottom-right-radius: 0px;
     border-top-left-radius: 9px;
-    border-top-right-radius: 9px;  
+    border-top-right-radius: 9px;
     border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px; 
-      
+    border-bottom-right-radius: 0px;
+
 }
 
 
@@ -79,11 +78,11 @@ div.expanded button.navigation-button {
     -moz-border-radius-bottomright: 9px;
     -moz-border-radius-bottomleft: 9px;
     border-bottom-right-radius: 9px;
-    border-bottom-left-radius: 9px;    
+    border-bottom-left-radius: 9px;
 }
 
 
-    
+
 .nav-primary li a:hover {
     width: auto !important;
 }
@@ -94,5 +93,3 @@ div.expanded button.navigation-button {
     width: 98%;
     margin: 0 1% !important;
     }
-
-
